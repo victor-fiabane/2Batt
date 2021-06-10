@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ccs/styleform.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="list1.html">Lista 1</a></li>
+            <li><a href="list2.html">Lista 2</a></li>
+            <li><a href="tabela.html">Tabela</a></li>
+        </ul>
+    </header>    
+    <div class="container">
+        <h1>Adicionar um endereço</h1>
+        <form action="#">
+           <label for="nome">Nome Completo</label>  
+           <input type="text" name="nome" id="nome"><br><br>
+           <label for="emp">Nome da Empresa</label>  
+           <input type="text" name="emp" id="emp"><br><br>
+           <label for="end1">Linha de Endereço 1</label>  
+           <input type="text" name="end1" id="end1"><br><br>
+           <label for="end2">Linha de Endereço 2</label>  
+           <input type="text" name="end2" id="end2"><br><br>
+           <label for="cit">Cidade</label>  
+           <input type="text" name="cit" id="cit">
+           <label for="est">Estado</label>  
+           <input type="text" name="est" id="est">
+           <label for="cp">Código Postal</label>  
+           <input type="text" name="cp" id="cp"><br><br>
+           País 
+           <select id="uf" name="uf">
+               <option value="br">BR</option>
+               <option value="usa">USA</option>
+               <option value="den">DEN</option>
+               <option value="mon">MON</option>
+               <option value="sol">SOL</option>
+               <option value="swi">SWI</option>
+               <option value="ukr">UKR</option>
+               <option value="hkg">HKG</option>
+               <option value="egy">EGY</option>
+               <option value="tur">TUR</option>
+               <option value="pol">POL</option>
+            </select> <br><br>
+    <label for="tel">Telefone</label>  
+           <input type="text" name="tel" id="tel">
+           <label for="fax">Fax</label>  
+           <input type="text" name="fax" id="fax"><br><br>
+           <input type="text" name="cpf" id="cpf"><br><br>
+           E-mail <input type="email" name="email" id="email"><br><br>
+           <input type="submit" value="Ok">
+           <input type="reset" value="Cancelar"> 
+    </div>       
+</form>   
+    <footer>  
+        <div class="rodape">
+            Todos os direitos reservados para Victor©
+
+
+
+            
+        </div>  
+    </footer>
+</body>
+</html>
